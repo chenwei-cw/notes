@@ -1,5 +1,5 @@
-#seajs
-[百度](https://www.baidu.com/)  
+# seajs
+[百度](https://www.baidu.com/)
 1、define是一个全局方法，用来定义一个CMD模块。
 
 2、可以define(factory)，factory可以单写一个函数，
