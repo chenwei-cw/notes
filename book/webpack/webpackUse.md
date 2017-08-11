@@ -45,3 +45,5 @@ react-redux`
          ]
      }
  }`
+ ## package.json  
+ `"start": "webpack-dev-server --progress --colors --hot --content-base ./bundle"`
