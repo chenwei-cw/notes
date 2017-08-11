@@ -1,5 +1,5 @@
-# notes
-[webpack](/book/webpack/webpackUse.md/)  
-[react](/book/react/reactStudy.md/)
+# Personal Notes
+* [webpack](/book/webpack/webpackUse.md/)  
+* [react](/book/react/reactStudy.md/)
 
 
