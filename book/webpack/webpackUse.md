@@ -40,7 +40,7 @@ react-redux`
              },
              {
                  test: /\.css$/,
-                 loader: 'style-loader!css-loader?modules'
+                 loader: 'style-loader!css-loader?modules&sourceMap=true&localIdentName=[name]_[local]_[hash:base64:5]!sass-loader'
              }
          ]
      }
