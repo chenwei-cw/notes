@@ -8,12 +8,15 @@ webpack-dev-server
 json-loader 
 babel-core 
 babel-loader 
-badel-preset-2015 
+babel-preset-es2015 
 babel-preset-react 
 react 
 react-dom 
 redux 
-react-redux`
+react-redux 
+babel-preset-stage-1 
+sass-loader 
+node-sass`
 ## webpack.config.js 配置
 `module.exports = {
 
@@ -39,8 +42,25 @@ react-redux`
                  }
              },
              {
+                 test: /\.scss$/,
+                 loader: 'style-loader!css-loader!sass-loader?modules=true'
+             },
+             {
                  test: /\.css$/,
-                 loader: 'style-loader!css-loader?modules&sourceMap=true&localIdentName=[name]_[local]_[hash:base64:5]!sass-loader'
+                 use: [
+                     {
+                         loader: "style-loader"
+                     }, {
+                         loader: "css-loader",
+                         options: {
+                             modules: true
+                         }
+                     }
+                 ]
+             },
+             {
+                 test:/\.(eot|ttf|woff|woff2|svg)$/,
+                 loader:'file-loader?name=fonts/[name].[ext]'
              }
          ]
      }
