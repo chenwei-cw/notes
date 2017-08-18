@@ -1,7 +1,7 @@
 # webpackUse
-## 安装webpack  
-全局安装npm install -g webpack  
-安装到项目目录中npm install --save-dev webpack
+## 安装  
+全局安装npm install -g webpack sass less  
+安装到项目目录中npm install --save-dev webpack 
 ## 安装依赖
 `npm install --save-dev 
 webpack-dev-server 
@@ -16,6 +16,7 @@ redux
 react-redux 
 babel-preset-stage-1 
 sass-loader 
+less-loader 
 node-sass`
 ## webpack.config.js 配置
 `module.exports = {
@@ -59,6 +60,10 @@ node-sass`
                  ]
              },
              {
+                 test: /\.less$/,
+                 loader: 'style-loader!css-loader!less-loader'
+             },
+             {
                  test:/\.(eot|ttf|woff|woff2|svg)$/,
                  loader:'file-loader?name=fonts/[name].[ext]'
              }
@@ -66,4 +71,16 @@ node-sass`
      }
  }`
  ## package.json  
- `"start": "webpack-dev-server --progress --colors --hot --content-base ./bundle"`
+ `"start": "webpack-dev-server --progress --colors --hot --content-base ./bundle"`  
+ `"babel": {
+ 
+    "plugins": [  
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "style": true
+        }
+      ]
+    ]
+  },`
