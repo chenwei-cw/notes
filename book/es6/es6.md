@@ -1,3 +1,4 @@
+#### 变量声明：
 const 可以使简单类型数据不变(string)，复杂类型数据不能保证内部数据结构不变(object)。const使指针不变。
 
 es6声明6中声明变量的方式:var,function,let,const,import,class
