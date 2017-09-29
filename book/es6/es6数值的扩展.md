@@ -1,0 +1,25 @@
+# 数值的扩展
+## 二进制和八进制的表达法
+1. 二进制前缀0b,八进制前缀0o;
+## Number.isFinite(),Number.isNan()
+1. Number.isFinite()用来检查一个数值是否为有限;返回布尔值
+2. Number.isNaN()用来检查一个数值是否为NaN;返回布尔值
+## Number.parseInt(),Number.parseFloat()
+1. 和parseInt()、parseFloat()一样,只是吧全局方法移到Number对象上了。
+## Number.isInteger()
+1. 用来判断一个数是否为整数。
+## Number.EPSILON
+1. 浮点数的计算是不精确的,如果误差小于Number.EPSILON就认为是正确的。返回布尔值
+## Number.isSafeInteger()
+1. avaScript能够准确表示的整数范围在-2^53到2^53之间（不含两个端点），超过这个范围，无法精确表示这个值。
+2. 验证一个数是不是安全整数。
+## Math对象的扩展
+1. Math.trunc()
+* 去除一个数的小数部分返回整数部分。
+2. Math.sign()
+* 用来判断一个数是正数、负数还是0。对于非数值,要先转化成数值。返回值(1、-1、0、-0、NaN);
+3. Math.cbrt()
+* Math.cbrt()用来计算一个数的立方根。
+## 指数运算符
+1. 指数运算符(**)
+`2 ** 2 = 4`
