@@ -12,7 +12,7 @@
 ####CSS
 * 将样式表置顶  
 * 避免CSS表达式
-* 用<link>代替@import 
+* 用\<link>代替@import 
 * 避免使用Filters
 ####Javascript
 * 将脚本置底
