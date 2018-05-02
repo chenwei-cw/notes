@@ -1,7 +1,6 @@
 #### javascript
 | Article | Article |
 | ------- | ------- |
-| [js的深拷贝和浅拷](http://www.cnblogs.com/taohuashan/p/6652770.html) | [js闭包](http://www.cnblogs.com/taohuashan/p/6689619.html) |
 | [js获取浏览器计算后的样式](http://www.zhangxinxu.com/wordpress/2012/05/getcomputedstyle-js-getpropertyvalue-currentstyle/) | [跨域](https://segmentfault.com/a/1190000003642057?_ea=330848) |
 | **Reference** | **Reference** |
 | [ES6入门（作者阮一峰）](http://es6.ruanyifeng.com/) | [前端TOP前100](https://www.awesomes.cn/rank) |
