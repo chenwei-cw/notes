@@ -31,10 +31,15 @@
     </style>
 </head>
 <body>
-    <div class="main">
+    <div id = 'main' class="main">
         <div class="center"></div>
         <div class="left"></div>
         <div class="right"></div>
     </div>
 </body>
+<script>
+    document.getElementById('main').onclick = function(e){
+        console.log(e);
+    }
+</script>
 </html>
