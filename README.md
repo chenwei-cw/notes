@@ -2,7 +2,9 @@
 
 ### 介绍
 
->用于个人的技术总结及生活感悟。欢迎拍砖！
+>用于个人的技术总结及生活感悟。欢迎拍砖！  
+## reat系列文章
+* [react生命周期](https://github.com/chenwei-cw/notes/issues/9)
 ## 大神博客收藏  
 * [阮一峰博客](http://www.ruanyifeng.com/blog/archives.html)  
 * [张鑫旭博客](http://www.zhangxinxu.com/)  
