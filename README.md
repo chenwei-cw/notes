@@ -1,3 +1,8 @@
+# 一只小猪猪前端的个人博客
+
+### 介绍
+
+>用于个人的技术总结及生活感悟。欢迎拍砖！
 ## 前端博客收藏  
 [js获取浏览器计算后的样式](http://www.zhangxinxu.com/wordpress/2012/05/getcomputedstyle-js-getpropertyvalue-currentstyle/)  
 [跨域](https://segmentfault.com/a/1190000003642057?_ea=330848)  
