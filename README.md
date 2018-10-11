@@ -4,7 +4,7 @@
 
 >用于个人的技术总结及生活感悟。欢迎拍砖！
 ## 生活系列
-* [应该坚持的好习惯](aaa)
+* [应该坚持的好习惯](https://github.com/chenwei-cw/notes/issues/12)
 ## reat系列文章
 * [react生命周期](https://github.com/chenwei-cw/notes/issues/9)
 ## 大神博客收藏  
